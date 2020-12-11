@@ -1,0 +1,112 @@
+SPE HACKATHON 202010
+
+
+Respuestas:
+Datos Oficiales
+
+#####################################################
+1	Indique el top 5 de los campos con mayor producción durante el año 2020	- 2 puntos
+
+  CAMPO           prod (MMstb)
+  <chr>          <dbl>
+1 RUBIALES       26.1 
+2 CASTILLA       16.4 
+3 CHICHIMENE     13.4 
+4 CASTILLA NORTE 11.6 
+5 QUIFA          9.29
+
+
+#####################################################
+2	Indique cuántas y cuáles compañias han reportado producción en más de 5 campos en Casanare en el año 2018 - 2 puntos
+
+1 CEPSA COLOMBIA S.A.                              
+2 COLOMBIA ENERGY DEVELOPMENT CO                   
+3 ECOPETROL S.A.                                   
+4 FRONTERA ENERGY COLOMBIA CORP SUCURSAL COLOMBIA  
+5 GEOPARK COLOMBIA S.A.S.                          
+6 NEW GRANADA ENERGY CORPORATION SUCURSAL COLOMBIA 
+7 PAREX RESOURCES COLOMBIA LTD. SUCURSAL           
+8 PERENCO COLOMBIA LIMITED  
+
+#####################################################
+3	Indique los 5 contratos con la más alta producción en MMstb en el año 2018 - 2 puntos
+
+  CONTRATO          prod MMstb
+  <chr>            <dbl>
+1 CUBARRAL          66.3
+2 RUBIALES          43.6
+3 LLA 34            22.1
+4 QUIFA             16.9
+5 LA CIRA INFANTAS  16.5
+
+#####################################################
+4	Ordene de mayor a menor las 10 Operadoras con mayor produccion en el mes de agosto 2019	- 2 puntos
+
+   OPERADORA                                         prod
+   <chr>                                            <dbl>
+ 1 ECOPETROL S.A.                                  14.7  
+ 2 FRONTERA ENERGY COLOMBIA CORP SUCURSAL COLOMBIA  2.52 
+ 3 GEOPARK COLOMBIA S.A.S.                          2.14 
+ 4 OCCIDENTAL DE COLOMBIA LLC                       1.65 
+ 5 EQUION ENERGIA LIMITED                           1.08 
+ 6 GRAN TIERRA ENERGY COLOMBIA LTD                  0.916
+ 7 MANSAROVAR ENERGY COLOMBIA LTD                   0.783
+ 8 HOCOL S.A.                                       0.608
+ 9 PAREX RESOURCES COLOMBIA LTD. SUCURSAL           0.488
+10 CEPSA COLOMBIA S.A.                              0.394
+
+#####################################################
+5	Realice un análisisis comparativo de la producción de los dos primeros trimestres de los años 2019 y 2020. Trimestres: Enero a Marzo, Abril a Junio	- 2 puntos
+
+  trimester  `2019`  `2020`     diff   diff_
+      <int>   <dbl>   <dbl>    <dbl>   <dbl>
+1         1 882358. 905076.   22717.  0.0257
+2         2 892594. 752556. -140037. -0.157 
+
+
+#####################################################
+#####################################################
+#####################################################
+
+Datos Blind Test
+
+#####################################################
+6	Caudal de producción del campo "1F D2689F", Julio 2019	- 2 puntos
+4766 BOPD
+
+#####################################################
+7	Barriles producidos por la operadora "2FE52430" en Febrero 2019	- 2 puntos
+208662 BO
+
+#####################################################
+8	Indique la producción departamental en barriles en el año 2018	- 2 puntos
+  DEPARTAMENTO        Np
+  <chr>            <dbl>
+1 CF33CB8A     18970778.
+2 F7FD2C4F      3833958.
+3 0FA93C9B      3004802.
+
+#####################################################
+9	Cuáles son los departamentos con producción promedio por campo mas variable	- 2 puntos
+YEAR DEPARTAMENTO        IQR
+<dbl> <chr>           <dbl>
+1  2017 0FA93C9B      776884.
+2  2018 0FA93C9B     1095054.
+3  2019 CF33CB8A     1199779.
+
+
+   YEAR DEPARTAMENTO      SD
+  <dbl> <chr>           <dbl>
+1  2017 CF33CB8A     1804467.
+2  2018 CF33CB8A     1777715.
+3  2019 CF33CB8A     1799652.
+
+Ambas respuestas son validas
+
+
+#####################################################
+10	Cuál es la tasa de declinación promedio mensual (Arps, hyperbolica, b = 0.5) del campo "51CBB05D"	- 2 puntos
+
+Di = 0.05672571 
+ 
+

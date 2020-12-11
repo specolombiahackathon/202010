@@ -1,0 +1,24 @@
+SPE HACKATHON 202010
+
+
+Errores mas comunes encontrados:
+
+1. confusion en unidades de medicion: todos los datos vienen en cuadal de aceite por dia promedio mensual, es decir para encontrar el volumen producido mensualmente hay que multiplicar el dato por los numeros de dias del mes. En el encabezado de los archivos Excel oficiales se especifica  (BARRILES POR DIA CALENDARIO - BPDC)
+
+2. los meses no tienen todos 30 dias. Se trata de produccion fiscalizada y el conteo debe ser exacto.
+
+3. Departamentos con produccion por campo mas variable (pregunta 9): 
+
+4. Declinacion (pregunta 10): se pedía hacer el ajuste de una curva de declinacion hiperbolica con b = 0.5 a todos los datos de ese campo. Varios grupos amarraron el dato del primer mes de produccion. 
+
+
+5. Metodo de encriptacion:
+	a. filtrar los datos (3 Empresas, años 2017-2018-2019)
+	b. aplicar un ruido aleatorio a los datos de produccion (multiplicando por un numero generado random). Los meses de cero produccion quedan en cero.
+	c. aplciar algoritom de encriptacion. Tutorial en https://jangorecki.github.io/blog/2014-11-07/Data-Anonymization-in-R.html
+
+Las claves para descifrar los datos eran:
+ - observar que habia 3 Empresas
+ - revisar numero de campos por año por empresas y cruzarlos con la misma informacion de lso datos oficiales
+ - el rudio de la produccion se aplicó por multiplicacion, es decir que los meses de cero produccion quedaron en cero.
+ - algunos equipos solucionaron este reto comnputando una medidion de distancia entre la prodeuccion de cada campo
